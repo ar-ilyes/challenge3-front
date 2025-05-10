@@ -16,11 +16,6 @@ const PromptForm = ({ onSubmit, isLoading }: PromptFormProps) => {
     }
   };
 
-  const examples = [
-    "How should Takaful operators report investment returns in relation to FAS 13?",
-    "We are seeing more use of diminishing Musharaka in real estate funds, but FAS 4 does not seem to cover shirkah al-ʿaqd structures. How should we treat partner contributions and exits?",
-    "Can you clarify how we should account for Sukuk holdings under FAS 25?",
-  ];
 
   return (
     <div className="card p-6">
